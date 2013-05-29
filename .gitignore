@@ -1,0 +1,21 @@
+ IDEs 
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+
+.*.swp
+backend/cache/navigation/
+vendor/
+app/config/parameters.yml
+
+#bundler
+gemfile
+gemfile.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+static/*
