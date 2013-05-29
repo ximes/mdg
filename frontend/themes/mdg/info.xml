@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<name>MdG</name>
+	<version>1.0.0</version>
+	<requirements>
+		<minimum_version>3.0.0</minimum_version>
+	</requirements>
+	<thumbnail>thumbnail.png</thumbnail>
+	<description>
+		<![CDATA[
+			
+		]]>
+	</description>
+	<authors>
+		<author>
+			<name>orion</name>
+			<url>http://www.mucchedighisa.com</url>
+		</author>
+	</authors>
+	<metanavigation supported="false" />
+	<templates>
+		<template label="Default" path="core/layout/templates/default.tpl">
+			<positions>
+				<position name="top" />
+				<position name="main" />
+				<position name="news" />
+				<position name="ribbon" />
+				<position name="contact" />
+				<position name="footer" />
+			</positions>
+			<format>
+				[/,top,/],[main,main,news],[ribbon,ribbon,ribbon],[contact,contact,contact],[/,footer,/]
+			</format>
+		</template>
+		<template label="Blog" path="core/layout/templates/blog.tpl">
+			<positions>
+				<position name="top" />
+				<position name="main" />
+				<position name="news" />
+				<position name="ribbon" />
+				<position name="contact" />
+				<position name="footer" />
+			</positions>
+			<format>
+				[/,top,/],[main,main,news],[ribbon,ribbon,ribbon],[contact,contact,contact],[/,footer,/]
+			</format>
+		</template>
+	</templates>
+</theme>
