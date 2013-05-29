@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+  <backend>
+    <core>
+      <item type="label" name="AllTestimonials">
+        <translation language="nl"><![CDATA[alle getuigenissen]]></translation>
+        <translation language="en"><![CDATA[all testimonials]]></translation>
+      </item>
+      <item type="label" name="RandomTestimonial">
+        <translation language="nl"><![CDATA[willekeurige getuigenis]]></translation>
+        <translation language="en"><![CDATA[random testimonial]]></translation>
+      </item>
+      <item type="label" name="Testimonials">
+        <translation language="nl"><![CDATA[getuigenissen]]></translation>
+        <translation language="en"><![CDATA[testimonials]]></translation>
+      </item>
+    </core>
+    <testimonials>
+      <item type="error" name="TestimonialIsRequired">
+        <translation language="nl"><![CDATA[Gelieve een getuigenis in te geven.]]></translation>
+        <translation language="en"><![CDATA[Please provide a testimonial.]]></translation>
+      </item>
+      <item type="label" name="Add">
+        <translation language="nl"><![CDATA[getuigenis toevoegen]]></translation>
+        <translation language="en"><![CDATA[add testimonial]]></translation>
+      </item>
+      <item type="label" name="Testimonial">
+        <translation language="nl"><![CDATA[getuigenis]]></translation>
+        <translation language="en"><![CDATA[testimonial]]></translation>
+      </item>
+      <item type="label" name="Visible">
+        <translation language="nl"><![CDATA[zichtbaar]]></translation>
+        <translation language="en"><![CDATA[visible]]></translation>
+      </item>
+      <item type="message" name="Added">
+        <translation language="nl"><![CDATA[De getuigenis van "%1$s" werd toegevoegd.]]></translation>
+        <translation language="en"><![CDATA[The testimonial by "%1$s" has been added.]]></translation>
+      </item>
+      <item type="message" name="ConfirmDelete">
+        <translation language="nl"><![CDATA[Ben je zeker dat je de getuigenis van "%1$s" wil verwijderen?]]></translation>
+        <translation language="en"><![CDATA[Are you sure you want to delete the testimonial by "%1$s"?]]></translation>
+      </item>
+      <item type="message" name="Deleted">
+        <translation language="nl"><![CDATA[De getuigenis van "%1$s" werd verwijderd.]]></translation>
+        <translation language="en"><![CDATA[The testimonial by "%1$s" has been deleted.]]></translation>
+      </item>
+      <item type="message" name="Edit">
+        <translation language="nl"><![CDATA[bewerk de getuigenis van "%1$s"]]></translation>
+        <translation language="en"><![CDATA[edit the testimonial by "%1$s"]]></translation>
+      </item>
+      <item type="message" name="Edited">
+        <translation language="nl"><![CDATA[De getuigenis van "%1$s" werd opgeslagen.]]></translation>
+        <translation language="en"><![CDATA[The testimonial by "%1$s" has been edited.]]></translation>
+      </item>
+    </testimonials>
+  </backend>
+  <frontend>
+    <core>
+      <item type="message" name="TestimonialsNoItems">
+        <translation language="nl"><![CDATA[Er zijn geen getuigenissen om te tonen.]]></translation>
+        <translation language="en"><![CDATA[There are no testimonials to show.]]></translation>
+      </item>
+      <item type="message" name="RandomTestimonial">
+        <translation language="nl"><![CDATA[Een willekeurige getuigenis:]]></translation>
+        <translation language="en"><![CDATA[A random testimonial:]]></translation>
+      </item>
+      <item type="message" name="ReadMoreTestimonials">
+        <translation language="nl"><![CDATA[Lees meer getuigenissen…]]></translation>
+        <translation language="en"><![CDATA[Read more testimonials…]]></translation>
+      </item>
+    </core>
+  </frontend>
+</locale>
