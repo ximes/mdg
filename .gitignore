@@ -19,3 +19,4 @@ gemfile.lock
 Thumbs.db
 
 static/*
+.sass-cache/*
