@@ -582,7 +582,7 @@ class FrontendTemplateModifiers
 	 * @param string[optional] $tpl The template that will be used.
 	 * @return string
 	 */
-	public static function getSubNavigation($var = null, $type = 'page', $pageId = 0, $startDepth = 1, $endDepth = null, $excludeIds = null, $tpl = '/core/layout/templates/navigation.tpl')
+	public static function getSubNavigation($var = null, $type = 'page', $pageId = 0, $startDepth = 1, $endDepth = null, $excludeIds = null, $tpl = '/core/layout/templates/subnavigation.tpl')
 	{
 		// build excludeIds
 		if($excludeIds !== null) $excludeIds = (array) explode('-', $excludeIds);
