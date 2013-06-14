@@ -1,0 +1,125 @@
+@media (max-width: $tablet-device-width) {
+  #footer {
+    margin-left: -0px;
+    margin-right: -10px;
+    padding:0 0px;
+    font-size:9pt;
+  }
+}
+
+@media (min-width: $tablet-device-width) and (max-width: 979px) {
+  
+}
+
+@media (max-width: $tablet-device-width) {
+  
+}
+
+@media print {
+
+}
+
+@media (min-width: 1200px) {
+
+
+}
+
+@media (max-width: 979px) {
+
+}
+
+@media (min-width: 980px) {
+
+}
+
+@media (min-width: $tablet-device-width) and (max-width: 979px) {
+
+}
+
+@media (max-width: $tablet-device-width) {
+ .navbar{
+    min-height:60px;
+    .dropdown ul, .dropdown li{
+      background-color:$medium_vl;
+      width:100%;
+      padding:0;
+      @include no-text-shadow;
+      color:$magenta;
+      text-align: center;
+    }
+    .dropdown ul li a:hover, .dropdown ul li:hover a,
+    &.header-bar ul li {
+      text-align: center;
+    }
+    .dropdown ul li:hover
+    {
+      background-color: $light_cream;
+    }
+
+  &.main-menu{
+      height:auto;
+      ul{
+        padding:0;
+        height:auto;
+        background:inherit;
+
+        li, li:hover > a{
+          margin:0;
+          width:100%;
+          display: block;
+          float:none;
+          @include transition(none);
+          @include oversize-background;
+          @include border-radius(0);
+          @include no-text-shadow;
+          text-align: center;
+          background: $light_vl repeat-y top center; 
+          line-height: 50px;
+          font-family: Verdana, sans serif;
+          
+          &.active .dropdown ul{
+            overflow: visible;
+          }
+          &:not(.li-logo){ 
+            a{
+              padding-top:5px;
+              line-height:50px;
+            }
+          }
+          &.li-logo{
+            display:none;
+          }
+          &.hover a, &.hover > a, a:hover{
+            background-color: $dirty_white;
+            color:$magenta;
+          }
+        }
+      }
+    }
+  }
+
+  .bg-bottom{
+    bottom:20px;
+    left:0;
+    margin:auto;
+  }  
+
+  .button{
+    &.grey{
+      a{
+        padding-top:0;
+        line-height:90%;
+      }
+    }
+  }
+
+  .products{
+    p{
+      @include font-size($norm);
+    } 
+  }
+}
+
+@media (max-width: $min-device-width) {
+
+}
