@@ -23,7 +23,6 @@
 			<positions>
 				<position name="top" />
 				<position name="main" />
-				<position name="news" />
 				<position name="ribbonLeft" />
 				<position name="ribbonRight" />
 				<position name="contactLeft" />
@@ -38,13 +37,15 @@
 			<positions>
 				<position name="top" />
 				<position name="main" />
-				<position name="news" />
-				<position name="ribbon" />
-				<position name="contact" />
+				<position name="right" />
+				<position name="ribbonLeft" />
+				<position name="ribbonRight" />
+				<position name="contactLeft" />
+				<position name="contactRight" />
 				<position name="footer" />
 			</positions>
 			<format>
-				[/,top,/],[main,main,news],[ribbon,ribbon,ribbon],[contact,contact,contact],[/,footer,/]
+				[top,top,top,top],[main,main,main,right],[ribbonLeft, ribbonLeft,ribbonRight, ribbonRight],[contactLeft,contactLeft,contactRight,contactRight],[footer,footer,footer,footer]
 			</format>
 		</template>
 	</templates>
