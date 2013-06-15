@@ -3,8 +3,7 @@
 {option:navigation}    
     <ul class="nav">
     	{iteration:navigation}
-      	<li class="{option:navigation.selected}active{/option:navigation.selected} {cycle:'':'':'li-logo'}">
-           {cycle:'':'':'</li><li class="li-logo">'}
+      	<li class="{cycle:'':'':'li-logo"></li><li class="li-logo}{option:navigation.selected}active{/option:navigation.selected}">
       		<a href="{$navigation.link}" title="{$navigation.navigation_title}"{option:navigation.nofollow} rel="nofollow"{/option:navigation.nofollow}>{$navigation.navigation_title}</a>
 				{option:navigation.selected}{$navigation.children}{/option:navigation.selected}
 		</li>
